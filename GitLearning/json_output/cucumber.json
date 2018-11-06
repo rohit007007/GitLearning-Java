@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Free CRM login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters the email id and user enters the password",
+            "match": {
+              "location": "LoginStepDefination.user_enters_the_email_id_and_user_enters_the_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "E:/Git-Project/GitLearning-Java/GitLearning/src/Feature/login.feature"
+  }
+]
