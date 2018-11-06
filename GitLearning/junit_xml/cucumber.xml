@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-<testcase classname="Free CRM login feature" name="Free CRM login Test Scenario" time="0">
-<system-out><![CDATA[Given User is already on login page.........................................skipped
-When title of login page is Free CRM........................................skipped
-Then User enters the email id and user enters the password..................skipped
-Then user clicks on the login button........................................skipped
-Then user is on homepage....................................................skipped
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="33.038247">
+<testcase classname="Free CRM login feature" name="Free CRM login Test Scenario" time="18.213262">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then User enters the "login9abc" and user enters the "123456"...............passed
+Then user clicks on the login button........................................passed
+Then user is on homepage....................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM login feature" name="Free CRM login Test Scenario 2" time="14.824985">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then User enters the "tom" and user enters the "harry"......................passed
+Then user clicks on the login button........................................passed
+Then user is on homepage....................................................passed
+Then close the browser......................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

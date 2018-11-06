@@ -3,18 +3,19 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
+        "line": 23,
         "name": "Free CRM login Test Scenario",
         "description": "",
-        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 12541393802,
+              "status": "passed"
             },
-            "line": 4,
+            "line": 14,
             "name": "User is already on login page",
             "match": {
               "location": "LoginStepDefination.user_already_on_login()"
@@ -23,9 +24,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2040536121,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 15,
             "name": "title of login page is Free CRM",
             "match": {
               "location": "LoginStepDefination.title_of_login_page_is()"
@@ -34,20 +36,36 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2658186561,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "User enters the email id and user enters the password",
+            "line": 16,
+            "name": "User enters the \"login9abc\" and user enters the \"123456\"",
             "match": {
-              "location": "LoginStepDefination.user_enters_the_email_id_and_user_enters_the_password()"
+              "arguments": [
+                {
+                  "val": "login9abc",
+                  "offset": 17
+                },
+                {
+                  "val": "123456",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_the_email_id_and_user_enters_the_password(String,String)"
             },
+            "matchedColumns": [
+              0,
+              1
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 189189,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 17,
             "name": "user clicks on the login button",
             "match": {
               "location": "LoginStepDefination.user_clicks_on_the_login_button()"
@@ -56,12 +74,121 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 153610,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 18,
             "name": "user is on homepage",
             "match": {
               "location": "LoginStepDefination.user_is_on_home_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 972802924,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Free CRM login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9869172336,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2038678439,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2203222171,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the \"tom\" and user enters the \"harry\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 17
+                },
+                {
+                  "val": "harry",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_the_email_id_and_user_enters_the_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49949,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36948,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on homepage",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 713825326,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
             },
             "keyword": "Then "
           }

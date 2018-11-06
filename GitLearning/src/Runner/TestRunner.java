@@ -9,13 +9,14 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "E:/Git-Project/GitLearning-Java/GitLearning/src/Feature/login.feature"
 ,glue={"LoginStepDefination"},
 format = {"pretty","html:test-outout","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
-dryRun = true,
+dryRun = false,
 monochrome =true//display the o/p in readable format
 
 ) 
 
 
 
-public class TestRunner {
-
+public class TestRunner
+{
+	
 }
